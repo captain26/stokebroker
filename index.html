@@ -26,7 +26,7 @@
               <a class="nav-link" style="color: white;" href="#">Downloads</a>
             </li>
             <li class="nav-item navitem">
-                <a class="nav-link" style="color: white;" href="#">Contact Us</a>
+                <a class="nav-link" style="color: white;" href="#contact">Contact Us</a>
               </li>
               <li class="nav-item navitem">
                 <a class="nav-link" style="color: white;" href="#">Client Login</a>
@@ -34,7 +34,7 @@
           </ul>
         </div>
       </nav>
-      <div id="home" style="background-image: url('back2.jpg');background-size: cover;">
+      <div id="home" style="background-image: url('back.jpg');background-size: cover;">
           <center class="center-content">
           <h2 class="display-4" style="margin-bottom: 40px;">SHARAD AGARWAL BROKING SERVICES PVT.LTD</h2>
           <p>SEBI Registration No. NSE CM: INB230911134, NSE F&O: INF230911134</p>
@@ -65,8 +65,46 @@
             </p>
         </center>
         <center>
-        <button type="button" class="btn btn-primary btn-lg" style="margin-top: 40px">Get in touch with us</button>
+        <button type="button" class="btn btn-primary btn-lg" style="margin-top: 40px" onclick="#contact">Get in touch with us</button>
     </center>
+      </div>
+      <div class="contact-form" id="contact">
+        <div class="address-info">
+        <center>
+          <h5 style="color: white; padding-bottom: 30px;">Contact Details:</h5>
+          <div class="row">
+            <p class="col-md-3" ></p>
+          <p class="col-md-3" style="color: white;"><b>Registered office address:<br></b>G-17,Fortune Chambers, <br>6 Lyons Range, <br>Kolkata- 700001</p>
+        
+          <p class="col-md-3" style="color: white;"><b>Corporate Address:<br></b>C-202, Remi Bizcourt, <br>Shah Industrial Estate,<br> off Veera Desai Road, Andheri(w), <br>Mumbai - 400053. <br>sabsmum@gmail.com</p>
+          <p class="col-md-3" ></p>
+        </div>
+        </center>
+      </div>
+        <center>
+        <form class="textfield">
+          <div class="form-row ">
+            <div class="form-group col-md-6">
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Name">
+            </div>
+            <div class="form-group col-md-6" >
+              <input type="password" class="form-control" id="inputPassword4" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group ">
+            <input type="text" class="form-control" id="inputAddress" placeholder="Address">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Message"></textarea>
+          </div>
+           <center>
+            <button type="button" class="btn btn-primary btn-lg btn-group mr-2  " style="margin-top: 40px;">Send Message</button>
+            <button type="button" class="btn btn-light btn-lg btn-group " style="margin-top: 40px;">Clear Form</button>
+           </center>
+           
+        </form>
+       
+      </center>
       </div>
 </body>
 </html>
